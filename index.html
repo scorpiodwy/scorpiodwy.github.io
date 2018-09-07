@@ -1,29 +1,416 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>DWY</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm asd!</h1>
-			
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:scorpiodwy@gmail.com">email</a></li>
-        		<li><a href="https://github.com/scorpiodwy">github.com/scorpiodwy</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wenyun Dai</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Favicons
+    ================================================== -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+  <!-- Stylesheet
+    ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <!-- Navigation
+    ==========================================-->
+  <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-play fa-rotate-270"></i> Spectrum</a> </div> -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#page-top" class="page-scroll">Home</a>
+            </li>
+            <li>
+              <a href="#education" class="page-scroll">Education</a>
+            </li>
+            <li>
+              <a href="#projects" class="page-scroll">Projects</a>
+            </li>
+            <li>
+              <a href="#research" class="page-scroll">Research</a>
+            </li>
+            <li>
+              <a href="publications.html" class="page-scroll">Publications</a>
+            </li>
+            <li>
+              <a href="#contact" class="page-scroll">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+  </nav>
+  <!-- Header -->
+  <header id="header">
+    <div class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <h1>WELCOME to my website</h1>
+          </div>
+        </div>
+      </div>
+  </header>
+  <!-- About Section -->
+  <div id="about">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>About Me</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <img src="img/about.jpg" class="img-responsive" alt=""> </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="about-text">
+            <p>My name is Wenyun Dai, 戴文韵 in Chinese.</p>
+            <p>I was born in China at 1988, and grew up with my twin sister. I married Ana Wu at 10/24/2014. We selected the
+              date since it's 2^10.</p>
+            <p>I got my Ph.D. at Pace University in Computer Science.I got my B.E. and M.E. at Xiamen University (XMU) and Shanghai
+              Jiao Tong University (SJTU) in Software Engineering.</p>
+            <a href="#education" class="btn btn-default btn-lg page-scroll">My Education</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Education Section -->
+  <div id="education">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>Education</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="education-text">
+          <h1>Ph.D. Computer Science, 01/2015 - 12/2017, Pace University, New York, US</h1>
+          <p>Dissertation: A Fine-Grained Data Access Permission Authorization Framework for Mobile Systems</p>
+          <p>Research topics: Mobie Computing, Cloud Computing, Privacy, and Optimization</p>
+          <!-- <a href="#education" class="btn btn-default btn-lg page-scroll">My Education</a> -->
+        </div>
+        <div class="education-text">
+            <h1>M.E Software Enginerring, 09/2011 - 06/2014, Shanghai Jiao Tong University(SJTU), China</h1>
+            <p>Dissertation: Dynamic Resource Management in Clouds with Support for Federation</p>
+            <p>Research topics: Cloud Computing, Distributed Computing, and Optimization</p>
+          </div>
+          <div class="education-text">
+              <h1>B.E Software Enginerring, 09/2006 - 06/2010, Xiamen University(XMU), China</h1>
+            </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- projects Section -->
+ <div id="projects">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>Projects</h2>
+        <hr>
+      </div>
+      <div class="categories">
+        <ul class="cat">
+          <li>
+            <ol class="type">
+              <li>
+                <a href="#" data-filter="*" class="active">All</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".web">Web Sites</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".optimization">Optimization</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".mobile">Mobile</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".other">Other</a>
+              </li>
+            </ol>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+      <div class="row">
+        <div class="portfolio-items">
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="project_details.html#gow" title="Globie Offical Website" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Globie Offical Website</h4>
+                  </div>
+                  <img src="img/portfolio/globie-offical-small.png" class="img-responsive"  alt="Globie Offical Website"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="project_details.html#cs" title="Customer Support Support" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Customer Support Support</h4>
+                  </div>
+                  <img src="img/portfolio/cs-small.png" class="img-responsive" alt="Customer Service Support"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="project_details.html#manager" title="Manager Panel" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Manager Panel</h4>
+                  </div>
+                  <img src="img/portfolio/manager-small.png" class="img-responsive" alt="Manager Panel"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 optimization">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="project_details.html#dbopt" title="SQL Join Optimization" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>SQL Join Optimization</h4>
+                  </div>
+                  <img src="img/portfolio/db_opt-small.png" class="img-responsive" alt="SQL Join Optimization"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="project_details.html#k12web" title="K12 Alerts Management Website Rebuild" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>K12 Alerts Management Website Rebuild</h4>
+                  </div>
+                  <img src="img/portfolio/k12web-small.png" class="img-responsive" alt="K12 Alerts Management Website Rebuild"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 mobile">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="project_details.html#voice" title="Voice Action Assistant" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Voice Action Assistant</h4>
+                  </div>
+                  <img src="img/portfolio/voice-small.png" class="img-responsive" alt="Voice Action Assistant"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 other">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="project_details.html#sso" title="Sigle Sign-On" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Sigle Sign-On</h4>
+                  </div>
+                  <img src="img/portfolio/sso-small.png" class="img-responsive" alt="Sigle Sign On"> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 col-lg-3 web">
+              <div class="portfolio-item">
+                <div class="hover-bg">
+                  <a href="project_details.html#sso" title="Huahan ERP" data-lightbox-gallery="gallery1">
+                    <div class="hover-text">
+                      <h4>Huahan ERP</h4>
+                    </div>
+                    <img src="img/portfolio/sso-small.png" class="img-responsive" alt="Huahan ERP"> </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3 other">
+                <div class="portfolio-item">
+                  <div class="hover-bg">
+                    <a href="project_details.html#sso" title="AFDX Data Loader" data-lightbox-gallery="gallery1">
+                      <div class="hover-text">
+                        <h4>AFDX Data Loader</h4>
+                      </div>
+                      <img src="img/portfolio/sso-small.png" class="img-responsive" alt="AFDX Data Loader"> </a>
+                  </div>
+                </div>
+              </div>
+          
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- research Section -->
+ <div id="research">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>Research</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="research-items">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="research-item">
+              <div>
+                <a href="publications.html" title="Click to see publications" data-lightbox-gallery="gallery1">
+                  <h1>Cloud Computing</h1>
+                  <p>My research on Cloud Computing focus on resource management in form of Virtual Machine.<br>
+                    Taking VM as a complicated unit, which is with individual CPU, Memory, disk, and network, I use two kinds of method to manage them.
+                    <ul><strong>Modified Linear Programming</strong>
+                      <li> 1. Abstract Cost, Performance, and Availability using VM;</li>
+                      <li> 2. Based on SLA, assign different priorities to these three aspects;</li>
+                      <li> 3. Linear programming of first two aspects, and get a reasonable range of output;</li>
+                      <li> 4. Add the third aspects, select the best result within the previously range.</li>                       
+                    </ul>
+                    <ul><strong>Dynamic Programming</strong>
+                      <li> 1. Abstract Cost and Performance, and Availability using VM;</li>
+                      <li> 2. Calculate the values of all these three aspects by adding each kinds of VM from 0 to n;</li>
+                      <li> 3. Backwardly find the best solution based on the 2D table generated by step 2. </li>
+                    </ul>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="research-item">
+                <div>
+                  <a href="publications.html" title="Click to see publications" data-lightbox-gallery="gallery1">
+                    <h1>Mobile Privacy</h1>
+                    <p>My research on Mobile users' privacy is based on the Data Over-Collection, I presented at 05/2016. 
+                      Data over-collection means smartphones apps collect users' data more than its original function while within the permission scope.
+                      <br>
+                      My research work include analyizing the motivation, formalizing the relation between privacy and data, and proposing a solution.
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div id="contact" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Get In Touch</h2>
+        <hr>
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-default btn-lg">Send Message</button>
+        </form>
+        <div class="social">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-dribbble"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-behance"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container text-center">
+      <div class="fnav">
+        <p>Copyright &copy; 2016 Spectrum. Designed by
+          <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="js/contact_me.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+
+<script>
+
+
+</script>
+
 </html>
