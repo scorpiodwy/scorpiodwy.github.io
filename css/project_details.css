@@ -37,6 +37,7 @@
 
 @media (max-width: 1200px) {
     .details_container{
+        width: 100vw;;
         height: auto;
     }
     .left_image{
@@ -67,6 +68,6 @@
         float: none;
         width: 400px;
         height: auto;
-        padding-left: 30px;
+        padding-left: 0;
     }
 }
