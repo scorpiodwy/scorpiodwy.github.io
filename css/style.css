@@ -284,6 +284,7 @@ ul.cat li {
 ol.type li {
 	display: inline-block;
 	margin-left: 20px;
+	margin-bottom: 50px;
 }
 ol.type li a {
 	background: #414a52;
