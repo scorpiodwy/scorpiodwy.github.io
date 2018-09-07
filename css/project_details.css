@@ -1,0 +1,36 @@
+.details_container{
+    width: 1200px;
+    margin:auto;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.left_image{
+    float: left;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.right_content{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.right_content h{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right_content p{
+    font-size: 16px;
+}
+
+.video_show{
+    float: left;
+    width: 400px;
+    height: 300px;
+    padding-left: 30px;
+}
