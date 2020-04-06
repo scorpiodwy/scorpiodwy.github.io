@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    </head>
+  Enter Joke ID: <input id="jID" /> <button id="submit" onclick="getJoke()">Get</button>
+  </br>
+  <p style="width:10%; float: left" id="jokeID"></p><p style="width:90%" id="jContent"></p>
+  </br>
+  Add a new joke: <input id="njContent"/> <button id="add" onclick="addJoke()">Submit</button>
+  <script>
+    function getJoke(){
+      var jokeID = document.getElementById("jID").value - 1;
+      var oldjokes;
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          oldjokes = JSON.parse(this.responseText);
+          document.getElementById("jokeID").innerHTML = oldjokes[jokeID].Joke_ID;
+          document.getElementById("jContent").innerHTML = oldjokes[jokeID].Content;         
+        }
+      };   
+
+      xmlhttp.open('GET', 'https://scorpiodwy.github.io/studentprojects/joke_server/jokes.json', true);
+      xmlhttp.send();
+
+      console.log(oldjokes);
+    }
+
+    function addJoke(){
+      var content = document.getElementById("njContent").value;
+      alert(content);
+    }
+  
+  </script>
+</html>
